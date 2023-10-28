@@ -1,3 +1,3 @@
 class Solution:
-    def mostWordsFound(self, sentences: List[str]) -> int:
-        return max(x.count(" ") for x in sentences)+1
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        return nums*2
