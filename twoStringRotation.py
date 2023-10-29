@@ -4,3 +4,4 @@ def areRotations(self,s1,s2):
         if s2 in r:
             return 1
         return 0
+#tc & sc: O(|s1|)
